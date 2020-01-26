@@ -1,5 +1,5 @@
 //loading
-$(window).load(function() {
+$(window).on('load',function() {
     $(".loading-overly").fadeOut(1500,
         function () {
             $(this).remove();
